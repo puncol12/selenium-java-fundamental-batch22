@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite Test Web eCommerce">
-  <parameter name="url" value="https://www.saucedemo.com/v1/index.html"></parameter>
-  <parameter name="username" value="standard_user"></parameter>
-  <parameter name="password" value="secret_sauce"></parameter>
-
-  <test name="Authentication Tests">
-    <parameter name="expectedSignIn" value="https://www.saucedemo.com/v1/inventory.html"></parameter>
+  <parameter name="url" value="https://demo.guru99.com/test/newtours/register.php"></parameter>
+  <!-- <test name="Fitur Radio Button">
     <classes>
       <class name="com.juaracoding.test.Hook" />
-      <class name="com.juaracoding.test.authentication.SignInWithoutUsernameTest" />
-      <class name="com.juaracoding.test.authentication.SignInWithoutPasswordTest" />
-      <class name="com.juaracoding.test.authentication.SignInTest" />
-      <!-- <class name="com.juaracoding.test.inventories.InventoryListTest" /> -->
+      <class name="com.juaracoding.test.RadioTest" />
+    </classes>
+  </test>
+
+  <test name="Fitur Checkbox">
+    <classes>
+      <class name="com.juaracoding.test.Hook" />
+      <class name="com.juaracoding.test.CheckboxTest" />
+    </classes>
+  </test> -->
+  <test name="Fitur Selected Box">
+    <classes>
+      <class name="com.juaracoding.test.Hook" />
+      <class name="com.juaracoding.test.SelectedTest" />
     </classes>
   </test>
 </suite>
