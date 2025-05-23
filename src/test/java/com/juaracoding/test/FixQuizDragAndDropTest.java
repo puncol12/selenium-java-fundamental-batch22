@@ -35,9 +35,15 @@ public class FixQuizDragAndDropTest extends BaseTest {
         // box1 (oslo) - box101 (norwey)
         // box2 (stockholm) - box102 (sweden)
 
+        /**
+         * KETIKA DRAG AND DROP PERTAMA
+         */
         String[][] keyElements = {{"box1", "box101"}, {"box2", "box102"}, {"box3", "box103"},
                 {"box4", "box104"}, {"box5", "box105"}, {"box6", "box106"}, {"box7", "box107"},};
 
+        /**
+         * JIKA CODE DI UNCOMMENT DIKEMBALIKAN KE DROPCONTENT TAPI DENGAN URUTAN ID SECARA ASC
+         */
         // String[][] returnToOrigin = {
         // {"box1", "dropContent"},
         // {"box2", "dropContent"},
@@ -48,10 +54,14 @@ public class FixQuizDragAndDropTest extends BaseTest {
         // {"box7", "dropContent"},
         // };
 
+        /**
+         * JIKA DIKEMBALIKAN SEPERTI SEMULA DAN URUTAN SESUAI SEMULA
+         */
         String[][] returnToOrigin = {{"box4", "dropContent"}, {"box5", "dropContent"},
                 {"box3", "dropContent"}, {"box1", "dropContent"}, {"box6", "dropContent"},
                 {"box7", "dropContent"}, {"box2", "dropContent"},};
 
+                
         for (int row = 0; row < keyElements.length; row++) {
             dragAndDrop(keyElements[row][0], keyElements[row][1]);
             Thread.sleep(500);
