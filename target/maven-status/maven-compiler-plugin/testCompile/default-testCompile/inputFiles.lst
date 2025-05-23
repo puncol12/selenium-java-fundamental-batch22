@@ -1,5 +1,8 @@
-D:\SQA juaracoding\selenium-java-fundamental-batch22\src\test\java\com\juaracoding\test\authentication\SignInTest.java
-D:\SQA juaracoding\selenium-java-fundamental-batch22\src\test\java\com\juaracoding\test\authentication\SignInWithoutPasswordTest.java
-D:\SQA juaracoding\selenium-java-fundamental-batch22\src\test\java\com\juaracoding\test\authentication\SignInWithoutUsernameTest.java
+D:\SQA juaracoding\selenium-java-fundamental-batch22\src\test\java\com\juaracoding\test\ActionTest.java
+D:\SQA juaracoding\selenium-java-fundamental-batch22\src\test\java\com\juaracoding\test\BaseTest.java
+D:\SQA juaracoding\selenium-java-fundamental-batch22\src\test\java\com\juaracoding\test\ByLinkText.java
+D:\SQA juaracoding\selenium-java-fundamental-batch22\src\test\java\com\juaracoding\test\CheckboxTest.java
 D:\SQA juaracoding\selenium-java-fundamental-batch22\src\test\java\com\juaracoding\test\Hook.java
-D:\SQA juaracoding\selenium-java-fundamental-batch22\src\test\java\com\juaracoding\test\inventories\InventoryListTest.java
+D:\SQA juaracoding\selenium-java-fundamental-batch22\src\test\java\com\juaracoding\test\QuizDragDropTest.java
+D:\SQA juaracoding\selenium-java-fundamental-batch22\src\test\java\com\juaracoding\test\RadioTest.java
+D:\SQA juaracoding\selenium-java-fundamental-batch22\src\test\java\com\juaracoding\test\SelectedTest.java

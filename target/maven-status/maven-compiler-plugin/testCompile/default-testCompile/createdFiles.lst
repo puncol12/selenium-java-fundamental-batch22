@@ -1,5 +1,8 @@
-com\juaracoding\test\authentication\SignInTest.class
-com\juaracoding\test\authentication\SignInWithoutPasswordTest.class
-com\juaracoding\test\inventories\InventoryListTest.class
-com\juaracoding\test\authentication\SignInWithoutUsernameTest.class
+com\juaracoding\test\ByLinkText.class
+com\juaracoding\test\QuizDragDropTest.class
+com\juaracoding\test\SelectedTest.class
+com\juaracoding\test\BaseTest.class
+com\juaracoding\test\RadioTest.class
 com\juaracoding\test\Hook.class
+com\juaracoding\test\ActionTest.class
+com\juaracoding\test\CheckboxTest.class
