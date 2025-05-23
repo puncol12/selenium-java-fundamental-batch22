@@ -6,3 +6,4 @@ com\juaracoding\test\RadioTest.class
 com\juaracoding\test\Hook.class
 com\juaracoding\test\ActionTest.class
 com\juaracoding\test\CheckboxTest.class
+com\juaracoding\test\FixQuizDragAndDropTest.class

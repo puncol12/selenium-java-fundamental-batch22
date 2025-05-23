@@ -31,7 +31,8 @@
       <class name="com.juaracoding.test.Hook" />
       <!-- <class name="com.juaracoding.test.ByLinkText" /> -->
       <!-- <class name="com.juaracoding.test.ActionTest" /> -->
-      <class name="com.juaracoding.test.QuizDragDropTest" />
+      <!-- <class name="com.juaracoding.test.QuizDragDropTest" /> -->
+      <class name="com.juaracoding.test.FixQuizDragAndDropTest" />
     </classes>
   </test>
 </suite>

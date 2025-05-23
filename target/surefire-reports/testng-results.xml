@@ -2,12 +2,22 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-23T20:41:01 WIB" name="Suite Test Web eCommerce" finished-at="2025-05-23T20:41:10 WIB" duration-ms="9363">
+  <suite started-at="2025-05-23T22:07:34 WIB" name="Suite Test Web eCommerce" finished-at="2025-05-23T22:08:07 WIB" duration-ms="32876">
     <groups>
     </groups>
-    <test started-at="2025-05-23T20:41:01 WIB" name="Pertemuan 16" finished-at="2025-05-23T20:41:10 WIB" duration-ms="9363">
+    <test started-at="2025-05-23T22:07:34 WIB" name="Pertemuan 16" finished-at="2025-05-23T22:08:07 WIB" duration-ms="32876">
+      <class name="com.juaracoding.test.FixQuizDragAndDropTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.juaracoding.test.FixQuizDragAndDropTest@130161f7]" started-at="2025-05-23T22:07:34 WIB" name="setup" finished-at="2025-05-23T22:07:34 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="praktikumMinggu02Test01()[pri:0, instance:com.juaracoding.test.FixQuizDragAndDropTest@130161f7]" started-at="2025-05-23T22:07:34 WIB" name="praktikumMinggu02Test01" finished-at="2025-05-23T22:08:07 WIB" duration-ms="32857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- praktikumMinggu02Test01 -->
+      </class> <!-- com.juaracoding.test.FixQuizDragAndDropTest -->
       <class name="com.juaracoding.test.Hook">
-        <test-method is-config="true" signature="initialize(java.lang.String)[pri:0, instance:com.juaracoding.test.Hook@76508ed1]" started-at="2025-05-23T20:40:58 WIB" name="initialize" finished-at="2025-05-23T20:41:01 WIB" duration-ms="3272" status="PASS">
+        <test-method is-config="true" signature="initialize(java.lang.String)[pri:0, instance:com.juaracoding.test.Hook@76508ed1]" started-at="2025-05-23T22:07:30 WIB" name="initialize" finished-at="2025-05-23T22:07:34 WIB" duration-ms="3910" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,21 +28,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method is-config="true" signature="finalTearDown()[pri:0, instance:com.juaracoding.test.Hook@76508ed1]" started-at="2025-05-23T20:41:10 WIB" name="finalTearDown" finished-at="2025-05-23T20:41:10 WIB" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="finalTearDown()[pri:0, instance:com.juaracoding.test.Hook@76508ed1]" started-at="2025-05-23T22:08:07 WIB" name="finalTearDown" finished-at="2025-05-23T22:08:07 WIB" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finalTearDown -->
       </class> <!-- com.juaracoding.test.Hook -->
-      <class name="com.juaracoding.test.QuizDragDropTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.juaracoding.test.QuizDragDropTest@130161f7]" started-at="2025-05-23T20:41:01 WIB" name="setup" finished-at="2025-05-23T20:41:01 WIB" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="praktikumMinggu02Test()[pri:0, instance:com.juaracoding.test.QuizDragDropTest@130161f7]" started-at="2025-05-23T20:41:01 WIB" name="praktikumMinggu02Test" finished-at="2025-05-23T20:41:10 WIB" duration-ms="9333" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- praktikumMinggu02Test -->
-      </class> <!-- com.juaracoding.test.QuizDragDropTest -->
     </test> <!-- Pertemuan 16 -->
   </suite> <!-- Suite Test Web eCommerce -->
 </testng-results>
