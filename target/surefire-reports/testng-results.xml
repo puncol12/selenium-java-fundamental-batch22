@@ -1,23 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[<a href='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/setup_before.png' target='_blank'>Screnshoot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br /><img src='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/setup_before.png' style='width: 20vw;' />]]>
+    </line>
+    <line>
+      <![CDATA[<a href='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/setup_after.png' target='_blank'>Screnshoot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br /><img src='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/setup_after.png' style='width: 20vw;' />]]>
+    </line>
+    <line>
+      <![CDATA[<a href='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/init_before.png' target='_blank'>Screnshoot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br /><img src='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/init_before.png' style='width: 20vw;' />]]>
+    </line>
+    <line>
+      <![CDATA[<a href='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/init_after.png' target='_blank'>Screnshoot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br /><img src='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/init_after.png' style='width: 20vw;' />]]>
+    </line>
+    <line>
+      <![CDATA[<a href='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/praktikumMinggu02Test01_before.png' target='_blank'>Screnshoot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br /><img src='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/praktikumMinggu02Test01_before.png' style='width: 20vw;' />]]>
+    </line>
+    <line>
+      <![CDATA[<a href='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/praktikumMinggu02Test01_after.png' target='_blank'>Screnshoot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br /><img src='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/praktikumMinggu02Test01_after.png' style='width: 20vw;' />]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-05-23T23:10:03 WIB" name="Suite Test Web eCommerce" finished-at="2025-05-23T23:10:36 WIB" duration-ms="32988">
+  <suite started-at="2025-05-26T22:08:18 WIB" name="Suite Test Web eCommerce" finished-at="2025-05-26T22:09:09 WIB" duration-ms="51113">
     <groups>
     </groups>
-    <test started-at="2025-05-23T23:10:03 WIB" name="Pertemuan 16" finished-at="2025-05-23T23:10:36 WIB" duration-ms="32988">
+    <test started-at="2025-05-26T22:08:18 WIB" name="Pertemuan 16" finished-at="2025-05-26T22:09:09 WIB" duration-ms="51113">
       <class name="com.juaracoding.test.FixQuizDragAndDropTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.juaracoding.test.FixQuizDragAndDropTest@130161f7]" started-at="2025-05-23T23:10:03 WIB" name="setup" finished-at="2025-05-23T23:10:03 WIB" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.juaracoding.test.FixQuizDragAndDropTest@77b14724]" started-at="2025-05-26T22:08:18 WIB" name="setup" finished-at="2025-05-26T22:08:18 WIB" duration-ms="86" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[<a href='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/setup_after.png' target='_blank'>Screnshoot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br /><img src='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/setup_after.png' style='width: 20vw;' />]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="praktikumMinggu02Test01()[pri:0, instance:com.juaracoding.test.FixQuizDragAndDropTest@130161f7]" started-at="2025-05-23T23:10:03 WIB" name="praktikumMinggu02Test01" finished-at="2025-05-23T23:10:36 WIB" duration-ms="32948" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- praktikumMinggu02Test01 -->
-      </class> <!-- com.juaracoding.test.FixQuizDragAndDropTest -->
-      <class name="com.juaracoding.test.Hook">
-        <test-method is-config="true" signature="initialize(java.lang.String)[pri:0, instance:com.juaracoding.test.Hook@76508ed1]" started-at="2025-05-23T23:09:59 WIB" name="initialize" finished-at="2025-05-23T23:10:03 WIB" duration-ms="3722" status="PASS">
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.juaracoding.test.FixQuizDragAndDropTest@77b14724]" started-at="2025-05-26T22:08:18 WIB" name="init" finished-at="2025-05-26T22:08:20 WIB" duration-ms="2223" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,13 +62,31 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<a href='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/init_after.png' target='_blank'>Screnshoot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br /><img src='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/init_after.png' style='width: 20vw;' />]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method is-config="true" signature="finalTearDown()[pri:0, instance:com.juaracoding.test.Hook@76508ed1]" started-at="2025-05-23T23:10:36 WIB" name="finalTearDown" finished-at="2025-05-23T23:10:36 WIB" duration-ms="116" status="PASS">
+        </test-method> <!-- init -->
+        <test-method signature="praktikumMinggu02Test01()[pri:0, instance:com.juaracoding.test.FixQuizDragAndDropTest@77b14724]" started-at="2025-05-26T22:08:21 WIB" name="praktikumMinggu02Test01" finished-at="2025-05-26T22:09:09 WIB" duration-ms="48472" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[<a href='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/praktikumMinggu02Test01_before.png' target='_blank'>Screnshoot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br /><img src='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/praktikumMinggu02Test01_before.png' style='width: 20vw;' />]]>
+            </line>
+            <line>
+              <![CDATA[<a href='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/praktikumMinggu02Test01_after.png' target='_blank'>Screnshoot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br /><img src='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/praktikumMinggu02Test01_after.png' style='width: 20vw;' />]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- finalTearDown -->
-      </class> <!-- com.juaracoding.test.Hook -->
+        </test-method> <!-- praktikumMinggu02Test01 -->
+      </class> <!-- com.juaracoding.test.FixQuizDragAndDropTest -->
     </test> <!-- Pertemuan 16 -->
   </suite> <!-- Suite Test Web eCommerce -->
 </testng-results>

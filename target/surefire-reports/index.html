@@ -144,9 +144,12 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite Test Web eCommerce&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;parameter name=&quot;url&quot; value=&quot;http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.juaracoding.test.listeners.Hook&quot;/&gt;
+    &lt;listener class-name=&quot;com.juaracoding.test.listeners.HookSS&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Pertemuan 16&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.juaracoding.test.Hook&quot;/&gt;
       &lt;class name=&quot;com.juaracoding.test.FixQuizDragAndDropTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Pertemuan 16 --&gt;
@@ -161,7 +164,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Pertemuan 16 (2 classes)</span>
+                <span class="test-name">Pertemuan 16 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -191,12 +194,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'praktikumMinggu02Test01')
 data.setCell(0, 2, 'com.juaracoding.test.FixQuizDragAndDropTest')
-data.setCell(0, 3, 32948);
+data.setCell(0, 3, 48472);
 window.suiteTableData['Suite_Test_Web_eCommerce']= { tableData: data, tableDiv: 'times-div-Suite_Test_Web_eCommerce'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <span class="suite-total-time">Total running time: 48 seconds</span>
               <div id="times-div-Suite_Test_Web_eCommerce">
               </div> <!-- times-div-Suite_Test_Web_eCommerce -->
             </div> <!-- times-div -->
@@ -207,6 +210,15 @@ return data;
             <span class="header-content">Reporter output for Suite Test Web eCommerce</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">praktikumMinggu02Test01</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/praktikumMinggu02Test01_before.png' target='_blank'>Screnshoot</a></span>
+                <span class="reporter-method-output"><br /><img src='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/praktikumMinggu02Test01_before.png' style='width: 20vw;' /></span>
+                <span class="reporter-method-output"><a href='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/praktikumMinggu02Test01_after.png' target='_blank'>Screnshoot</a></span>
+                <span class="reporter-method-output"><br /><img src='D:\SQA juaracoding\selenium-java-fundamental-batch22/screenshots/praktikumMinggu02Test01_after.png' style='width: 20vw;' /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite_Test_Web_eCommerce" class="panel">
@@ -222,29 +234,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.juaracoding.test.Hook</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">initialize(http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">com.juaracoding.test.FixQuizDragAndDropTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">3748 ms</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">init(http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html)</span>
+                <span class="method-start">155 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">praktikumMinggu02Test01</span>
-                <span class="method-start">3755 ms</span>
+                <span class="method-start">2495 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.juaracoding.test.Hook</div> <!-- chronological-class-name -->
-              <div class="configuration-suite after">
-                <span class="method-name">finalTearDown</span>
-                <span class="method-start">36760 ms</span>
-              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

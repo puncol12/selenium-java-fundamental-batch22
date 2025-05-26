@@ -5,9 +5,18 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class FixQuizDragAndDropTest extends BaseTest {
+    @BeforeClass
+    @Parameters({"url"})
+    public void init(String url) {
+        driver = DriverSingleton.createOrGetDriver();
+        driver.get(url);
+    }
+
     private void dragAndDrop(String idDrag, String idDrop) {
         WebElement draggable = driver.findElement(By.id(idDrag));
         WebElement drop = driver.findElement(By.id(idDrop));
@@ -22,6 +31,17 @@ public class FixQuizDragAndDropTest extends BaseTest {
     private void dragAndDropReverse(String idDrag, String idDrop) {
         WebElement drop = driver.findElement(By.id(idDrop));
         WebElement draggable = driver.findElement(By.id(idDrag));
+        Actions builder = new Actions(driver);
+
+        Action dragger = builder.clickAndHold(draggable).pause(Duration.ofMillis(500))
+                .moveToElement(drop, 0, 2).pause(Duration.ofMillis(500)).release()
+                .pause(Duration.ofMillis(500)).build();
+        dragger.perform();
+    }
+
+    private void dragAndDropReverseReturn(String idDrag, String idDrop) {
+        WebElement draggable = driver.findElement(By.id(idDrag));
+        WebElement drop = driver.findElement(By.id(idDrop));
         Actions builder = new Actions(driver);
 
         Action dragger = builder.clickAndHold(draggable).pause(Duration.ofMillis(500))
@@ -61,7 +81,13 @@ public class FixQuizDragAndDropTest extends BaseTest {
                 {"box3", "dropContent"}, {"box1", "dropContent"}, {"box6", "dropContent"},
                 {"box7", "dropContent"}, {"box2", "dropContent"},};
 
-                
+        /*
+         * dikembalikan lagi karena mau ambil screenshot
+         */
+        // String[][] keyElements1 = {{"box1", "box101"}, {"box2", "box102"}, {"box3", "box103"},
+        //         {"box4", "box104"}, {"box5", "box105"}, {"box6", "box106"}, {"box7", "box107"},};
+
+
         for (int row = 0; row < keyElements.length; row++) {
             dragAndDrop(keyElements[row][0], keyElements[row][1]);
             Thread.sleep(500);
@@ -69,6 +95,11 @@ public class FixQuizDragAndDropTest extends BaseTest {
 
         for (int row = 0; row < returnToOrigin.length; row++) {
             dragAndDropReverse(returnToOrigin[row][0], returnToOrigin[row][1]);
+            Thread.sleep(500);
+        }
+
+        for (int row = 0; row < keyElements.length; row++) {
+            dragAndDropReverseReturn(keyElements[row][0], keyElements[row][1]);
             Thread.sleep(500);
         }
 

@@ -1,9 +1,12 @@
 com\juaracoding\test\ByLinkText.class
-com\juaracoding\test\QuizDragDropTest.class
+com\juaracoding\test\listeners\HookSS.class
 com\juaracoding\test\SelectedTest.class
-com\juaracoding\test\BaseTest.class
+com\juaracoding\test\ScreenshotHelper.class
 com\juaracoding\test\RadioTest.class
-com\juaracoding\test\Hook.class
 com\juaracoding\test\ActionTest.class
 com\juaracoding\test\CheckboxTest.class
+com\juaracoding\test\listeners\Hook.class
 com\juaracoding\test\FixQuizDragAndDropTest.class
+com\juaracoding\test\QuizDragDropTest.class
+com\juaracoding\test\BaseTest.class
+com\juaracoding\test\Hook.class
