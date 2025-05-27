@@ -52,9 +52,6 @@ public class FixQuizDragAndDropTest extends BaseTest {
 
     @Test
     public void praktikumMinggu02Test01() throws InterruptedException {
-        // box1 (oslo) - box101 (norwey)
-        // box2 (stockholm) - box102 (sweden)
-
         /**
          * KETIKA DRAG AND DROP PERTAMA
          */
@@ -81,12 +78,6 @@ public class FixQuizDragAndDropTest extends BaseTest {
                 {"box3", "dropContent"}, {"box1", "dropContent"}, {"box6", "dropContent"},
                 {"box7", "dropContent"}, {"box2", "dropContent"},};
 
-        /*
-         * dikembalikan lagi karena mau ambil screenshot
-         */
-        // String[][] keyElements1 = {{"box1", "box101"}, {"box2", "box102"}, {"box3", "box103"},
-        //         {"box4", "box104"}, {"box5", "box105"}, {"box6", "box106"}, {"box7", "box107"},};
-
 
         for (int row = 0; row < keyElements.length; row++) {
             dragAndDrop(keyElements[row][0], keyElements[row][1]);
@@ -98,6 +89,9 @@ public class FixQuizDragAndDropTest extends BaseTest {
             Thread.sleep(500);
         }
 
+        /*
+         * dikembalikan lagi karena mau ambil screenshot
+         */
         for (int row = 0; row < keyElements.length; row++) {
             dragAndDropReverseReturn(keyElements[row][0], keyElements[row][1]);
             Thread.sleep(500);
